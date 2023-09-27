@@ -11,4 +11,3 @@ function generateRandomAlphanumericString(length) {
   const randomString = generateRandomAlphanumericString(10);
   
   console.log(randomString); 
-  

@@ -5,7 +5,7 @@ function factorial(n) {
       return n * factorial(n - 1);
     }
   }
-  const factorial5 = factorial(5);
+  const factorial5 = factorial(3);
   
   console.log(factorial5); 
   

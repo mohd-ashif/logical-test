@@ -6,5 +6,6 @@ function isPalindrome(string) {
     return string === reversedString;
     
   }
-  console.log(isPalindrome("malayalam"))
+  console.log(isPalindrome("malayalam"));
+  
   

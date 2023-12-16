@@ -1,25 +1,27 @@
 const n = 5;
- let string = '';
+ let count = '';
 
 for(let i =1;i<= n ; i++){
  
   for(let j = 1 ;j <=n -i ;j++ ){
-    string += ' ';
+    count += ' ';
   }
   for(let k = 1;k <= 2*i-1; k++){
-    string +='*'
+    count +='*'
   }
-  string+='\n'
+  count+='\n'
 }
 for(let i =n; i >= 1 ;i--){
 
   for(let j = 1;j<= n -i;j++){
-   string +=' '
+   count +=' '
   }
   for(let k =1;k <=2*i-1; k++){
-    string+= "*"
+    count+= "*"
     
   }
- string+= '\n'
+ count+= '\n'
 }
- console.log(string)
+ console.log(count)
+
+ 

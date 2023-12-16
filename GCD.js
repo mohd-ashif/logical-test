@@ -1,5 +1,4 @@
 
-
 function gcd(a , b){
 
     while(b !==0 ){

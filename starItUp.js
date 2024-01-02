@@ -16,7 +16,9 @@ function starItUp(a) {
 starItUp('abc');
 
 
-// method -2
+// method -2 
+
+
 var a = "hello";
 var n = a.length;
 var c = '';

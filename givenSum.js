@@ -10,6 +10,7 @@ function givenSum(arr){
                 count++
              
             }
+            
         }
     }
     

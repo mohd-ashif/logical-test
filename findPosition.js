@@ -7,8 +7,7 @@ function findIndices(a) {
       for (let j = i +1 ; j <n; j++) {
           if (a[i] === k && a[j] === k) {
               console.log(i, j);
-              return; // Added return to exit the function after printing indices
-          }
+              return; 
       }
   }
 

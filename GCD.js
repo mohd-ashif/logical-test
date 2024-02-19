@@ -11,8 +11,8 @@ function gcd(a , b){
 
 }
 
-const num1 = 48;
-const num2 = 18 ;
+const num1 = 12;
+const num2 = 24;
 
 result = gcd (num1 , num2);
 
